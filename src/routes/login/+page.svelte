@@ -148,21 +148,11 @@
     background-color: #111827;
   }
 
-  /* Add radial gradient background */
-  .bg-gradient-radial {
-    background-image: radial-gradient(circle at center, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 50%, var(--tw-gradient-to) 100%);
-  }
-
   @media (max-width: 1023px) {
     :global(body) {
       min-height: 100vh;
       min-height: -webkit-fill-available;
     }
-  }
-
-  @keyframes bounce-subtle {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-3px); }
   }
 
   @keyframes gradient {
@@ -174,19 +164,6 @@
   .animate-gradient {
     background-size: 200% 200%;
     animation: gradient 3s ease infinite;
-  }
-
-  .animate-bounce-subtle {
-    animation: bounce-subtle 2s ease-in-out infinite;
-  }
-
-  .animate-fade-in {
-    animation: fadeIn 0.5s ease-out forwards;
-  }
-
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
   }
 
   /* Add smooth transitions for all interactive elements */
