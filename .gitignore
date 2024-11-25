@@ -12,6 +12,7 @@
 /build
 /.svelte-kit
 /package
+.vercel
 
 # IDE
 .vscode
