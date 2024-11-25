@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import type { TweetV2, UserV2 } from 'twitter-api-v2';
+  import type { TweetV2, UserV2 } from '$lib/types/twitter';
   import { rateLimit } from '$lib/stores/rateLimit';
   import { generateReply } from '$lib/utils/gemini';
   import { DatabaseService } from '$lib/appwrite/database';

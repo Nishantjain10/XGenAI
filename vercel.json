@@ -7,5 +7,7 @@
         "maximumFileSizeToCacheInBytes": 10485760
       }
     }
-  ]
+  ],
+  "framework": "sveltekit",
+  "version": 2
 } 
