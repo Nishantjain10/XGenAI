@@ -13,6 +13,6 @@
   "buildCommand": "npm run build",
   "installCommand": "npm install",
   "devCommand": "npm run dev",
-  "outputDirectory": "build",
+  "outputDirectory": ".svelte-kit/vercel",
   "nodeVersion": "18.x"
 } 
