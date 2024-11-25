@@ -9,9 +9,5 @@
     }
   ],
   "framework": "sveltekit",
-  "version": 2,
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "devCommand": "npm run dev",
-  "outputDirectory": "build"
+  "version": 2
 } 
